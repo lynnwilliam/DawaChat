@@ -37,7 +37,9 @@ Option 1:
 You can build this repor directly please use the Latest RC branch.
 
 Option 2: 
-Download the latest RC APK from this branch to your device []
+Download the latest RC APK from this branch to your device
+
+https://github.com/lynnwilliam/DawaChat/blob/main/DawaBase%20RC_1.apk
 
 Option 3:
 Dowwnload from the PlayStore Directly.
