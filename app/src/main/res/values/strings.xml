@@ -44,5 +44,5 @@
 
     <string name="nollmkeysset">Error: No LLM Api Keys are set</string>
     <string name="reportbugs">Please report bugs to the Public GitHub Repo DawaChat.</string>
-    <string name="openrepo">https://github.com/lynnwilliam</string>
+    <string name="openrepo">https://github.com/lynnwilliam/DawaChat</string>
 </resources>
