@@ -4,6 +4,12 @@ Free Chat Client For Android, free to use, free to fork, free to free!
 What happens if you add Gemini, ChatGPT, YouTube, GoogleMaps into the same App!!!
  Android ChatClient with Gemini, ChatGPT, YouTube, GoogleMaps integrated.
 
+![alt text](https://github.com/lynnwilliam/DawaChat/blob/main/screenshots/bakecookies.png?raw=true)
+![alt text](https://github.com/lynnwilliam/DawaChat/blob/main/screenshots/bakecookies.jpg?raw=true)
+
+![alt text](https://github.com/lynnwilliam/DawaChat/blob/main/screenshots/findbakery.png?raw=true)
+![alt text](https://github.com/lynnwilliam/DawaChat/blob/main/screenshots/findbakery.jpg?raw=true)
+
 # Configure For Building (Optional)
 
  Option 1:
