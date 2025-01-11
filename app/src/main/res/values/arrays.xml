@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="professorDemoChats">
+        <item>This is demo mode, but that is a very interesting question</item>
+        <item>if you setup your GPT API Key, I could answer that !</item>
+        <item>Interesting question!</item>
+        <item>This is demo mode, I love your questions</item>
+    </string-array>
+
+    <string-array name="mapprefix">
+        <item>find</item>
+        <item>locate</item>
+        <item>map</item>
+        <item>where is</item>
+    </string-array>
+
+    <string-array name="video">
+        <item>watch</item>
+        <item>video</item>
+        <item>tv</item>
+        <item>where is</item>
+        <item>youtube</item>
+        <item>yt</item>
+        <item>videos</item>
+        <item>video</item>
+    </string-array>
+
+</resources>
