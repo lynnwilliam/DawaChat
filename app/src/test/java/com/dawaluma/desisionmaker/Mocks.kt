@@ -10,6 +10,7 @@ import com.dawaluma.desisionmaker.database.DataType
 import com.dawaluma.desisionmaker.di.AppDependencyProvider
 import com.dawaluma.desisionmaker.di.BaseViewModelFactory
 import com.dawaluma.desisionmaker.di.DependencyProviderContract
+import com.dawaluma.desisionmaker.webapi.youtube.LatLong
 
 class Mocks {
 
@@ -32,6 +33,8 @@ class Mocks {
         private var gptAPI: String? = null
         private var geminiAPI: String? = null
         private var demoMode = false
+        private var youtubeOffered: Boolean = true
+        private var mapsOffered: Boolean = true
 
         override fun isAppTermsAgreed(): Boolean {
             return termsAgreed
@@ -113,8 +116,16 @@ class Mocks {
             return youtubeAPI.isNullOrEmpty()
         }
 
+        override fun setYouTubeOffered(offered: Boolean) {
+            youtubeOffered = offered
+        }
+
         override fun isMapsAPIOffered(): Boolean {
             return mapsAPI.isNullOrEmpty()
+        }
+
+        override fun setMapsOffered(offered: Boolean) {
+            mapsOffered = offered
         }
 
         override fun setDemoMode(demo: Boolean) {
@@ -169,6 +180,10 @@ class Mocks {
 
         override fun openBrowser(address: String) {
 
+        }
+
+        override fun getDeviceLocation(): LatLong? {
+           return null
         }
     }
 }

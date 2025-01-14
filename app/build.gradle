@@ -108,5 +108,10 @@ dependencies {
     // Instrumentation (UI) tests, if needed
     androidTestImplementation 'androidx.test.ext:junit:1.1.5' // JUnit for Android tests
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1' // Espresso for UI tests
+}
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
